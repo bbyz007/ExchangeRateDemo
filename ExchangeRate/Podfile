@@ -1,0 +1,6 @@
+platform :ios, '9.0'
+target 'ExchangeRate' do
+    pod "AFNetworking"
+    pod "Masonry"
+    pod "FMDB"
+end

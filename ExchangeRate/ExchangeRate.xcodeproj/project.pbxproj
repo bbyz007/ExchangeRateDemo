@@ -1,0 +1,1087 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78374FA6FF619F515B1FBE52 /* libPods-ExchangeRate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73058D7F3E6F29AE7B767DAD /* libPods-ExchangeRate.a */; };
+		CD10130C1E530AD700454469 /* EXRCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10130B1E530AD700454469 /* EXRCurveView.m */; };
+		CD1013161E54150F00454469 /* EXRHistoricalService.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1013151E54150F00454469 /* EXRHistoricalService.m */; };
+		CD1013201E55DC6300454469 /* EXRate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10131F1E55DC6300454469 /* EXRate.m */; };
+		CD1013231E55DE0F00454469 /* EXRDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1013221E55DE0F00454469 /* EXRDBHelper.m */; };
+		CD1013261E5691BC00454469 /* EXRHistoricalDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1013251E5691BC00454469 /* EXRHistoricalDAO.m */; };
+		CD1013331E5B317900454469 /* EXRCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1013321E5B317900454469 /* EXRCustomButton.m */; };
+		CD1013381E5B335900454469 /* EXRCustomPresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1013341E5B335900454469 /* EXRCustomPresentTransition.m */; };
+		CD1013391E5B335900454469 /* EXRCustomDismissTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1013351E5B335900454469 /* EXRCustomDismissTransition.m */; };
+		CD10133C1E5C61F600454469 /* EXRAFClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10133A1E5C61F600454469 /* EXRAFClient.m */; };
+		CD10133F1E5C731000454469 /* EXRSearchResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10133E1E5C731000454469 /* EXRSearchResultTableViewController.m */; };
+		CD10134B1E63101C00454469 /* EXRCurrentExchangeRateCell+Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10134A1E63101C00454469 /* EXRCurrentExchangeRateCell+Currency.m */; };
+		CD10134E1E631DA100454469 /* EXRCustomTextField+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10134D1E631DA100454469 /* EXRCustomTextField+Formatter.m */; };
+		CD71C4771E4303EE002365A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C4761E4303EE002365A0 /* main.m */; };
+		CD71C47A1E4303EE002365A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C4791E4303EE002365A0 /* AppDelegate.m */; };
+		CD71C47D1E4303EE002365A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C47C1E4303EE002365A0 /* ViewController.m */; };
+		CD71C4801E4303EE002365A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD71C47E1E4303EE002365A0 /* Main.storyboard */; };
+		CD71C4851E4303EE002365A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD71C4831E4303EE002365A0 /* LaunchScreen.storyboard */; };
+		CD71C4901E4303EE002365A0 /* ExchangeRateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C48F1E4303EE002365A0 /* ExchangeRateTests.m */; };
+		CD71C49B1E4303EE002365A0 /* ExchangeRateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C49A1E4303EE002365A0 /* ExchangeRateUITests.m */; };
+		CD71C4B41E46E4D4002365A0 /* EXRBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C4B31E46E4D4002365A0 /* EXRBaseTableViewCell.m */; };
+		CD71C4B71E46E567002365A0 /* EXRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C4B61E46E567002365A0 /* EXRBaseViewController.m */; };
+		CD71C4BA1E46E5AC002365A0 /* EXRBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C4B91E46E5AC002365A0 /* EXRBaseNavigationController.m */; };
+		CD71C4BD1E46E767002365A0 /* EXRCurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C4BC1E46E767002365A0 /* EXRCurrency.m */; };
+		CD71C4DA1E475392002365A0 /* EXRCurrentService.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C4D91E475392002365A0 /* EXRCurrentService.m */; };
+		CD71C4DF1E498421002365A0 /* EXRExchangeRatePlistHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C4DE1E498421002365A0 /* EXRExchangeRatePlistHelper.m */; };
+		CD71C4E41E49868A002365A0 /* EXRCurrentDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C4E31E49868A002365A0 /* EXRCurrentDAO.m */; };
+		CD71C4E81E498C0D002365A0 /* EXRBaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C4E71E498C0D002365A0 /* EXRBaseEntity.m */; };
+		CD71C4EF1E49910B002365A0 /* EXRCurrencyDetailHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C4EE1E49910B002365A0 /* EXRCurrencyDetailHelper.m */; };
+		CD71C4FD1E4C6857002365A0 /* EXRCustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C4FC1E4C6857002365A0 /* EXRCustomTextField.m */; };
+		CD71C5021E4CB6BE002365A0 /* EXRChosenService.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C5011E4CB6BE002365A0 /* EXRChosenService.m */; };
+		CD71C50D1E4EDB5B002365A0 /* EXRCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C50C1E4EDB5B002365A0 /* EXRCustomView.m */; };
+		CD71C5131E501275002365A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD71C5121E501275002365A0 /* Assets.xcassets */; };
+		CD71C52C1E50208F002365A0 /* EXRCurrenciesChosenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C51A1E50208F002365A0 /* EXRCurrenciesChosenViewController.m */; };
+		CD71C52D1E50208F002365A0 /* EXRChosenCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C51D1E50208F002365A0 /* EXRChosenCustomCell.m */; };
+		CD71C52E1E50208F002365A0 /* EXRCurrentExchangeRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C5201E50208F002365A0 /* EXRCurrentExchangeRateViewController.m */; };
+		CD71C5301E50208F002365A0 /* EXRCurrentExchangeRateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C5251E50208F002365A0 /* EXRCurrentExchangeRateCell.m */; };
+		CD71C5311E50208F002365A0 /* EXRVirtualKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C5281E50208F002365A0 /* EXRVirtualKeyboard.m */; };
+		CD71C5321E50208F002365A0 /* EXRHistoricalDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C52B1E50208F002365A0 /* EXRHistoricalDataViewController.m */; };
+		CD71C5371E502D0C002365A0 /* EXRHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C5361E502D0C002365A0 /* EXRHeaderView.m */; };
+		CD71C53A1E502D4F002365A0 /* EXRChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71C5391E502D4F002365A0 /* EXRChartView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD71C48C1E4303EE002365A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD71C46A1E4303EE002365A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD71C4711E4303EE002365A0;
+			remoteInfo = ExchangeRate;
+		};
+		CD71C4971E4303EE002365A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD71C46A1E4303EE002365A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD71C4711E4303EE002365A0;
+			remoteInfo = ExchangeRate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029F0BDAD98B7A1BE8D69E2C /* Pods-ExchangeRate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeRate.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExchangeRate/Pods-ExchangeRate.release.xcconfig"; sourceTree = "<group>"; };
+		60C7F0AA7D2FEBAE1C11D2F2 /* Pods-ExchangeRate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeRate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExchangeRate/Pods-ExchangeRate.debug.xcconfig"; sourceTree = "<group>"; };
+		73058D7F3E6F29AE7B767DAD /* libPods-ExchangeRate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExchangeRate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD10130A1E530AD700454469 /* EXRCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRCurveView.h; path = ChartView/EXRCurveView.h; sourceTree = "<group>"; };
+		CD10130B1E530AD700454469 /* EXRCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRCurveView.m; path = ChartView/EXRCurveView.m; sourceTree = "<group>"; };
+		CD1013141E54150F00454469 /* EXRHistoricalService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRHistoricalService.h; path = Service/Historical/EXRHistoricalService.h; sourceTree = "<group>"; };
+		CD1013151E54150F00454469 /* EXRHistoricalService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRHistoricalService.m; path = Service/Historical/EXRHistoricalService.m; sourceTree = "<group>"; };
+		CD10131E1E55DC6300454469 /* EXRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRate.h; path = Model/EXRate/EXRate.h; sourceTree = "<group>"; };
+		CD10131F1E55DC6300454469 /* EXRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRate.m; path = Model/EXRate/EXRate.m; sourceTree = "<group>"; };
+		CD1013211E55DE0F00454469 /* EXRDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRDBHelper.h; path = Helper/DB/EXRDBHelper.h; sourceTree = "<group>"; };
+		CD1013221E55DE0F00454469 /* EXRDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRDBHelper.m; path = Helper/DB/EXRDBHelper.m; sourceTree = "<group>"; };
+		CD1013241E5691BC00454469 /* EXRHistoricalDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRHistoricalDAO.h; path = DAO/HistoricalDAO/EXRHistoricalDAO.h; sourceTree = "<group>"; };
+		CD1013251E5691BC00454469 /* EXRHistoricalDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRHistoricalDAO.m; path = DAO/HistoricalDAO/EXRHistoricalDAO.m; sourceTree = "<group>"; };
+		CD1013311E5B317900454469 /* EXRCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRCustomButton.h; path = General/CustomButton/EXRCustomButton.h; sourceTree = "<group>"; };
+		CD1013321E5B317900454469 /* EXRCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRCustomButton.m; path = General/CustomButton/EXRCustomButton.m; sourceTree = "<group>"; };
+		CD1013341E5B335900454469 /* EXRCustomPresentTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXRCustomPresentTransition.m; sourceTree = "<group>"; };
+		CD1013351E5B335900454469 /* EXRCustomDismissTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXRCustomDismissTransition.m; sourceTree = "<group>"; };
+		CD1013361E5B335900454469 /* EXRCustomPresentTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXRCustomPresentTransition.h; sourceTree = "<group>"; };
+		CD1013371E5B335900454469 /* EXRCustomDismissTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXRCustomDismissTransition.h; sourceTree = "<group>"; };
+		CD10133A1E5C61F600454469 /* EXRAFClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRAFClient.m; path = Helper/AFClient/EXRAFClient.m; sourceTree = "<group>"; };
+		CD10133B1E5C61F600454469 /* EXRAFClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRAFClient.h; path = Helper/AFClient/EXRAFClient.h; sourceTree = "<group>"; };
+		CD10133D1E5C731000454469 /* EXRSearchResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXRSearchResultTableViewController.h; sourceTree = "<group>"; };
+		CD10133E1E5C731000454469 /* EXRSearchResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXRSearchResultTableViewController.m; sourceTree = "<group>"; };
+		CD1013491E63101C00454469 /* EXRCurrentExchangeRateCell+Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXRCurrentExchangeRateCell+Currency.h"; sourceTree = "<group>"; };
+		CD10134A1E63101C00454469 /* EXRCurrentExchangeRateCell+Currency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXRCurrentExchangeRateCell+Currency.m"; sourceTree = "<group>"; };
+		CD10134C1E631DA100454469 /* EXRCustomTextField+Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "EXRCustomTextField+Formatter.h"; path = "General/CustomTextField/EXRCustomTextField+Formatter.h"; sourceTree = "<group>"; };
+		CD10134D1E631DA100454469 /* EXRCustomTextField+Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "EXRCustomTextField+Formatter.m"; path = "General/CustomTextField/EXRCustomTextField+Formatter.m"; sourceTree = "<group>"; };
+		CD71C4721E4303EE002365A0 /* ExchangeRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD71C4761E4303EE002365A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD71C4781E4303EE002365A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD71C4791E4303EE002365A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD71C47B1E4303EE002365A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD71C47C1E4303EE002365A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD71C47F1E4303EE002365A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD71C4841E4303EE002365A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD71C4861E4303EE002365A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD71C48B1E4303EE002365A0 /* ExchangeRateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExchangeRateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD71C48F1E4303EE002365A0 /* ExchangeRateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExchangeRateTests.m; sourceTree = "<group>"; };
+		CD71C4911E4303EE002365A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD71C4961E4303EE002365A0 /* ExchangeRateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExchangeRateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD71C49A1E4303EE002365A0 /* ExchangeRateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExchangeRateUITests.m; sourceTree = "<group>"; };
+		CD71C49C1E4303EE002365A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD71C4B21E46E4D4002365A0 /* EXRBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRBaseTableViewCell.h; path = General/BaseTableViewCell/EXRBaseTableViewCell.h; sourceTree = "<group>"; };
+		CD71C4B31E46E4D4002365A0 /* EXRBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRBaseTableViewCell.m; path = General/BaseTableViewCell/EXRBaseTableViewCell.m; sourceTree = "<group>"; };
+		CD71C4B51E46E567002365A0 /* EXRBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRBaseViewController.h; path = General/BaseViewController/EXRBaseViewController.h; sourceTree = "<group>"; };
+		CD71C4B61E46E567002365A0 /* EXRBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRBaseViewController.m; path = General/BaseViewController/EXRBaseViewController.m; sourceTree = "<group>"; };
+		CD71C4B81E46E5AC002365A0 /* EXRBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRBaseNavigationController.h; path = General/BaseNavigationController/EXRBaseNavigationController.h; sourceTree = "<group>"; };
+		CD71C4B91E46E5AC002365A0 /* EXRBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRBaseNavigationController.m; path = General/BaseNavigationController/EXRBaseNavigationController.m; sourceTree = "<group>"; };
+		CD71C4BB1E46E767002365A0 /* EXRCurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRCurrency.h; path = Model/Currency/EXRCurrency.h; sourceTree = "<group>"; };
+		CD71C4BC1E46E767002365A0 /* EXRCurrency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRCurrency.m; path = Model/Currency/EXRCurrency.m; sourceTree = "<group>"; };
+		CD71C4CF1E47013A002365A0 /* ExchangeRate.prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExchangeRate.prefix.pch; sourceTree = "<group>"; };
+		CD71C4D81E475392002365A0 /* EXRCurrentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRCurrentService.h; path = Service/Current/EXRCurrentService.h; sourceTree = "<group>"; };
+		CD71C4D91E475392002365A0 /* EXRCurrentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRCurrentService.m; path = Service/Current/EXRCurrentService.m; sourceTree = "<group>"; };
+		CD71C4DD1E498421002365A0 /* EXRExchangeRatePlistHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRExchangeRatePlistHelper.h; path = Helper/Plist/EXRExchangeRatePlistHelper.h; sourceTree = "<group>"; };
+		CD71C4DE1E498421002365A0 /* EXRExchangeRatePlistHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRExchangeRatePlistHelper.m; path = Helper/Plist/EXRExchangeRatePlistHelper.m; sourceTree = "<group>"; };
+		CD71C4E21E49868A002365A0 /* EXRCurrentDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRCurrentDAO.h; path = DAO/CurrentDAO/EXRCurrentDAO.h; sourceTree = "<group>"; };
+		CD71C4E31E49868A002365A0 /* EXRCurrentDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRCurrentDAO.m; path = DAO/CurrentDAO/EXRCurrentDAO.m; sourceTree = "<group>"; };
+		CD71C4E61E498C0D002365A0 /* EXRBaseEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRBaseEntity.h; path = Model/Base/EXRBaseEntity.h; sourceTree = "<group>"; };
+		CD71C4E71E498C0D002365A0 /* EXRBaseEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRBaseEntity.m; path = Model/Base/EXRBaseEntity.m; sourceTree = "<group>"; };
+		CD71C4ED1E49910B002365A0 /* EXRCurrencyDetailHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRCurrencyDetailHelper.h; path = Helper/CurrencyDetail/EXRCurrencyDetailHelper.h; sourceTree = "<group>"; };
+		CD71C4EE1E49910B002365A0 /* EXRCurrencyDetailHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRCurrencyDetailHelper.m; path = Helper/CurrencyDetail/EXRCurrencyDetailHelper.m; sourceTree = "<group>"; };
+		CD71C4FB1E4C6857002365A0 /* EXRCustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRCustomTextField.h; path = General/CustomTextField/EXRCustomTextField.h; sourceTree = "<group>"; };
+		CD71C4FC1E4C6857002365A0 /* EXRCustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRCustomTextField.m; path = General/CustomTextField/EXRCustomTextField.m; sourceTree = "<group>"; };
+		CD71C5001E4CB6BE002365A0 /* EXRChosenService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRChosenService.h; path = Service/Chosen/EXRChosenService.h; sourceTree = "<group>"; };
+		CD71C5011E4CB6BE002365A0 /* EXRChosenService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRChosenService.m; path = Service/Chosen/EXRChosenService.m; sourceTree = "<group>"; };
+		CD71C50B1E4EDB5B002365A0 /* EXRCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRCustomView.h; path = General/CustomView/EXRCustomView.h; sourceTree = "<group>"; };
+		CD71C50C1E4EDB5B002365A0 /* EXRCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRCustomView.m; path = General/CustomView/EXRCustomView.m; sourceTree = "<group>"; };
+		CD71C5121E501275002365A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD71C5191E50208F002365A0 /* EXRCurrenciesChosenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXRCurrenciesChosenViewController.h; sourceTree = "<group>"; };
+		CD71C51A1E50208F002365A0 /* EXRCurrenciesChosenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXRCurrenciesChosenViewController.m; sourceTree = "<group>"; };
+		CD71C51C1E50208F002365A0 /* EXRChosenCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXRChosenCustomCell.h; sourceTree = "<group>"; };
+		CD71C51D1E50208F002365A0 /* EXRChosenCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXRChosenCustomCell.m; sourceTree = "<group>"; };
+		CD71C51F1E50208F002365A0 /* EXRCurrentExchangeRateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXRCurrentExchangeRateViewController.h; sourceTree = "<group>"; };
+		CD71C5201E50208F002365A0 /* EXRCurrentExchangeRateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXRCurrentExchangeRateViewController.m; sourceTree = "<group>"; };
+		CD71C5241E50208F002365A0 /* EXRCurrentExchangeRateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXRCurrentExchangeRateCell.h; sourceTree = "<group>"; };
+		CD71C5251E50208F002365A0 /* EXRCurrentExchangeRateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXRCurrentExchangeRateCell.m; sourceTree = "<group>"; };
+		CD71C5271E50208F002365A0 /* EXRVirtualKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXRVirtualKeyboard.h; sourceTree = "<group>"; };
+		CD71C5281E50208F002365A0 /* EXRVirtualKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXRVirtualKeyboard.m; sourceTree = "<group>"; };
+		CD71C52A1E50208F002365A0 /* EXRHistoricalDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXRHistoricalDataViewController.h; sourceTree = "<group>"; };
+		CD71C52B1E50208F002365A0 /* EXRHistoricalDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXRHistoricalDataViewController.m; sourceTree = "<group>"; };
+		CD71C5351E502D0C002365A0 /* EXRHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRHeaderView.h; path = HeaderView/EXRHeaderView.h; sourceTree = "<group>"; };
+		CD71C5361E502D0C002365A0 /* EXRHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRHeaderView.m; path = HeaderView/EXRHeaderView.m; sourceTree = "<group>"; };
+		CD71C5381E502D4F002365A0 /* EXRChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXRChartView.h; path = ChartView/EXRChartView.h; sourceTree = "<group>"; };
+		CD71C5391E502D4F002365A0 /* EXRChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXRChartView.m; path = ChartView/EXRChartView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD71C46F1E4303EE002365A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78374FA6FF619F515B1FBE52 /* libPods-ExchangeRate.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD71C4881E4303EE002365A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD71C4931E4303EE002365A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EEB5D26E1577374A8AEECF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60C7F0AA7D2FEBAE1C11D2F2 /* Pods-ExchangeRate.debug.xcconfig */,
+				029F0BDAD98B7A1BE8D69E2C /* Pods-ExchangeRate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9383CB348D918C6E6922FCBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73058D7F3E6F29AE7B767DAD /* libPods-ExchangeRate.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD10130D1E54023D00454469 /* EXRCustomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				CD1013341E5B335900454469 /* EXRCustomPresentTransition.m */,
+				CD1013351E5B335900454469 /* EXRCustomDismissTransition.m */,
+				CD1013361E5B335900454469 /* EXRCustomPresentTransition.h */,
+				CD1013371E5B335900454469 /* EXRCustomDismissTransition.h */,
+			);
+			name = EXRCustomTransition;
+			path = Modules/HistoricalData;
+			sourceTree = "<group>";
+		};
+		CD10131D1E55DC1E00454469 /* EXRate */ = {
+			isa = PBXGroup;
+			children = (
+				CD10131E1E55DC6300454469 /* EXRate.h */,
+				CD10131F1E55DC6300454469 /* EXRate.m */,
+			);
+			name = EXRate;
+			sourceTree = "<group>";
+		};
+		CD1013301E5B314500454469 /* EXRCustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				CD1013311E5B317900454469 /* EXRCustomButton.h */,
+				CD1013321E5B317900454469 /* EXRCustomButton.m */,
+			);
+			name = EXRCustomButton;
+			sourceTree = "<group>";
+		};
+		CD71C4691E4303EE002365A0 = {
+			isa = PBXGroup;
+			children = (
+				CD71C4741E4303EE002365A0 /* ExchangeRate */,
+				CD71C48E1E4303EE002365A0 /* ExchangeRateTests */,
+				CD71C4991E4303EE002365A0 /* ExchangeRateUITests */,
+				CD71C4731E4303EE002365A0 /* Products */,
+				5EEB5D26E1577374A8AEECF1 /* Pods */,
+				9383CB348D918C6E6922FCBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD71C4731E4303EE002365A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C4721E4303EE002365A0 /* ExchangeRate.app */,
+				CD71C48B1E4303EE002365A0 /* ExchangeRateTests.xctest */,
+				CD71C4961E4303EE002365A0 /* ExchangeRateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD71C4741E4303EE002365A0 /* ExchangeRate */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C5171E50208F002365A0 /* EXRModules */,
+				CD71C4C81E46F5F1002365A0 /* EXRService */,
+				CD71C4C71E46F4FE002365A0 /* EXRDAO */,
+				CD71C4C61E46F4E4002365A0 /* EXRHelper */,
+				CD71C4B11E46DEF3002365A0 /* EXRModel */,
+				CD71C4AA1E46DAB2002365A0 /* EXRGeneral */,
+				CD71C4781E4303EE002365A0 /* AppDelegate.h */,
+				CD71C4791E4303EE002365A0 /* AppDelegate.m */,
+				CD71C5121E501275002365A0 /* Assets.xcassets */,
+				CD71C47B1E4303EE002365A0 /* ViewController.h */,
+				CD71C47C1E4303EE002365A0 /* ViewController.m */,
+				CD71C47E1E4303EE002365A0 /* Main.storyboard */,
+				CD71C4831E4303EE002365A0 /* LaunchScreen.storyboard */,
+				CD71C4861E4303EE002365A0 /* Info.plist */,
+				CD71C4751E4303EE002365A0 /* Supporting Files */,
+			);
+			path = ExchangeRate;
+			sourceTree = "<group>";
+		};
+		CD71C4751E4303EE002365A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C4761E4303EE002365A0 /* main.m */,
+				CD71C4CF1E47013A002365A0 /* ExchangeRate.prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD71C48E1E4303EE002365A0 /* ExchangeRateTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C48F1E4303EE002365A0 /* ExchangeRateTests.m */,
+				CD71C4911E4303EE002365A0 /* Info.plist */,
+			);
+			path = ExchangeRateTests;
+			sourceTree = "<group>";
+		};
+		CD71C4991E4303EE002365A0 /* ExchangeRateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C49A1E4303EE002365A0 /* ExchangeRateUITests.m */,
+				CD71C49C1E4303EE002365A0 /* Info.plist */,
+			);
+			path = ExchangeRateUITests;
+			sourceTree = "<group>";
+		};
+		CD71C4AA1E46DAB2002365A0 /* EXRGeneral */ = {
+			isa = PBXGroup;
+			children = (
+				CD10130D1E54023D00454469 /* EXRCustomTransition */,
+				CD1013301E5B314500454469 /* EXRCustomButton */,
+				CD71C50A1E4EDB43002365A0 /* EXRCustomView */,
+				CD71C4FE1E4C6861002365A0 /* EXRCustomTextField */,
+				CD71C4B01E46DE7A002365A0 /* EXRBaseTableViewCell */,
+				CD71C4AF1E46DE18002365A0 /* EXRBaseViewController */,
+				CD71C4AE1E46DDFA002365A0 /* EXRBaseNavigationController */,
+			);
+			name = EXRGeneral;
+			sourceTree = "<group>";
+		};
+		CD71C4AE1E46DDFA002365A0 /* EXRBaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C4B81E46E5AC002365A0 /* EXRBaseNavigationController.h */,
+				CD71C4B91E46E5AC002365A0 /* EXRBaseNavigationController.m */,
+			);
+			name = EXRBaseNavigationController;
+			sourceTree = "<group>";
+		};
+		CD71C4AF1E46DE18002365A0 /* EXRBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C4B51E46E567002365A0 /* EXRBaseViewController.h */,
+				CD71C4B61E46E567002365A0 /* EXRBaseViewController.m */,
+			);
+			name = EXRBaseViewController;
+			sourceTree = "<group>";
+		};
+		CD71C4B01E46DE7A002365A0 /* EXRBaseTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C4B21E46E4D4002365A0 /* EXRBaseTableViewCell.h */,
+				CD71C4B31E46E4D4002365A0 /* EXRBaseTableViewCell.m */,
+			);
+			name = EXRBaseTableViewCell;
+			sourceTree = "<group>";
+		};
+		CD71C4B11E46DEF3002365A0 /* EXRModel */ = {
+			isa = PBXGroup;
+			children = (
+				CD10131D1E55DC1E00454469 /* EXRate */,
+				CD71C4E51E498BEF002365A0 /* EXRBase */,
+				CD71C4BE1E46E771002365A0 /* EXRCurrency */,
+			);
+			name = EXRModel;
+			sourceTree = "<group>";
+		};
+		CD71C4BE1E46E771002365A0 /* EXRCurrency */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C4BB1E46E767002365A0 /* EXRCurrency.h */,
+				CD71C4BC1E46E767002365A0 /* EXRCurrency.m */,
+			);
+			name = EXRCurrency;
+			sourceTree = "<group>";
+		};
+		CD71C4C61E46F4E4002365A0 /* EXRHelper */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C50E1E4EEF59002365A0 /* EXRAFClient */,
+				CD71C4E91E498FC9002365A0 /* EXRCurrencyDetail */,
+				CD71C4DC1E4983D3002365A0 /* EXRDB */,
+				CD71C4DB1E4983AA002365A0 /* EXRPlist */,
+			);
+			name = EXRHelper;
+			sourceTree = "<group>";
+		};
+		CD71C4C71E46F4FE002365A0 /* EXRDAO */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C4E11E498606002365A0 /* EXRHistoricalDAO */,
+				CD71C4E01E4985DB002365A0 /* EXRCurrentDAO */,
+			);
+			name = EXRDAO;
+			sourceTree = "<group>";
+		};
+		CD71C4C81E46F5F1002365A0 /* EXRService */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C4FF1E4CB680002365A0 /* EXRChosen */,
+				CD71C4CA1E46F736002365A0 /* EXRHistorical */,
+				CD71C4C91E46F72C002365A0 /* EXRCurrent */,
+			);
+			name = EXRService;
+			sourceTree = "<group>";
+		};
+		CD71C4C91E46F72C002365A0 /* EXRCurrent */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C4D81E475392002365A0 /* EXRCurrentService.h */,
+				CD71C4D91E475392002365A0 /* EXRCurrentService.m */,
+			);
+			name = EXRCurrent;
+			sourceTree = "<group>";
+		};
+		CD71C4CA1E46F736002365A0 /* EXRHistorical */ = {
+			isa = PBXGroup;
+			children = (
+				CD1013141E54150F00454469 /* EXRHistoricalService.h */,
+				CD1013151E54150F00454469 /* EXRHistoricalService.m */,
+			);
+			name = EXRHistorical;
+			sourceTree = "<group>";
+		};
+		CD71C4DB1E4983AA002365A0 /* EXRPlist */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C4DD1E498421002365A0 /* EXRExchangeRatePlistHelper.h */,
+				CD71C4DE1E498421002365A0 /* EXRExchangeRatePlistHelper.m */,
+			);
+			name = EXRPlist;
+			sourceTree = "<group>";
+		};
+		CD71C4DC1E4983D3002365A0 /* EXRDB */ = {
+			isa = PBXGroup;
+			children = (
+				CD1013211E55DE0F00454469 /* EXRDBHelper.h */,
+				CD1013221E55DE0F00454469 /* EXRDBHelper.m */,
+			);
+			name = EXRDB;
+			sourceTree = "<group>";
+		};
+		CD71C4E01E4985DB002365A0 /* EXRCurrentDAO */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C4E21E49868A002365A0 /* EXRCurrentDAO.h */,
+				CD71C4E31E49868A002365A0 /* EXRCurrentDAO.m */,
+			);
+			name = EXRCurrentDAO;
+			sourceTree = "<group>";
+		};
+		CD71C4E11E498606002365A0 /* EXRHistoricalDAO */ = {
+			isa = PBXGroup;
+			children = (
+				CD1013241E5691BC00454469 /* EXRHistoricalDAO.h */,
+				CD1013251E5691BC00454469 /* EXRHistoricalDAO.m */,
+			);
+			name = EXRHistoricalDAO;
+			sourceTree = "<group>";
+		};
+		CD71C4E51E498BEF002365A0 /* EXRBase */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C4E61E498C0D002365A0 /* EXRBaseEntity.h */,
+				CD71C4E71E498C0D002365A0 /* EXRBaseEntity.m */,
+			);
+			name = EXRBase;
+			sourceTree = "<group>";
+		};
+		CD71C4E91E498FC9002365A0 /* EXRCurrencyDetail */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C4ED1E49910B002365A0 /* EXRCurrencyDetailHelper.h */,
+				CD71C4EE1E49910B002365A0 /* EXRCurrencyDetailHelper.m */,
+			);
+			name = EXRCurrencyDetail;
+			sourceTree = "<group>";
+		};
+		CD71C4FE1E4C6861002365A0 /* EXRCustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C4FB1E4C6857002365A0 /* EXRCustomTextField.h */,
+				CD71C4FC1E4C6857002365A0 /* EXRCustomTextField.m */,
+				CD10134C1E631DA100454469 /* EXRCustomTextField+Formatter.h */,
+				CD10134D1E631DA100454469 /* EXRCustomTextField+Formatter.m */,
+			);
+			name = EXRCustomTextField;
+			sourceTree = "<group>";
+		};
+		CD71C4FF1E4CB680002365A0 /* EXRChosen */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C5001E4CB6BE002365A0 /* EXRChosenService.h */,
+				CD71C5011E4CB6BE002365A0 /* EXRChosenService.m */,
+			);
+			name = EXRChosen;
+			sourceTree = "<group>";
+		};
+		CD71C50A1E4EDB43002365A0 /* EXRCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C50B1E4EDB5B002365A0 /* EXRCustomView.h */,
+				CD71C50C1E4EDB5B002365A0 /* EXRCustomView.m */,
+			);
+			name = EXRCustomView;
+			sourceTree = "<group>";
+		};
+		CD71C50E1E4EEF59002365A0 /* EXRAFClient */ = {
+			isa = PBXGroup;
+			children = (
+				CD10133A1E5C61F600454469 /* EXRAFClient.m */,
+				CD10133B1E5C61F600454469 /* EXRAFClient.h */,
+			);
+			name = EXRAFClient;
+			sourceTree = "<group>";
+		};
+		CD71C5171E50208F002365A0 /* EXRModules */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C5181E50208F002365A0 /* EXRCurrenciesChosen */,
+				CD71C51E1E50208F002365A0 /* EXRCurrentExchangeRate */,
+				CD71C5291E50208F002365A0 /* EXRHistoricalData */,
+			);
+			name = EXRModules;
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CD71C5181E50208F002365A0 /* EXRCurrenciesChosen */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C5191E50208F002365A0 /* EXRCurrenciesChosenViewController.h */,
+				CD71C51A1E50208F002365A0 /* EXRCurrenciesChosenViewController.m */,
+				CD10133D1E5C731000454469 /* EXRSearchResultTableViewController.h */,
+				CD10133E1E5C731000454469 /* EXRSearchResultTableViewController.m */,
+				CD71C51B1E50208F002365A0 /* EXRCustomCell */,
+			);
+			name = EXRCurrenciesChosen;
+			path = CurrenciesChosen;
+			sourceTree = "<group>";
+		};
+		CD71C51B1E50208F002365A0 /* EXRCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C51C1E50208F002365A0 /* EXRChosenCustomCell.h */,
+				CD71C51D1E50208F002365A0 /* EXRChosenCustomCell.m */,
+			);
+			name = EXRCustomCell;
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		CD71C51E1E50208F002365A0 /* EXRCurrentExchangeRate */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C51F1E50208F002365A0 /* EXRCurrentExchangeRateViewController.h */,
+				CD71C5201E50208F002365A0 /* EXRCurrentExchangeRateViewController.m */,
+				CD71C5211E50208F002365A0 /* EXRTableViewCell */,
+				CD71C5261E50208F002365A0 /* EXRVirtualKeyboard */,
+			);
+			name = EXRCurrentExchangeRate;
+			path = CurrentExchangeRate;
+			sourceTree = "<group>";
+		};
+		CD71C5211E50208F002365A0 /* EXRTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C5241E50208F002365A0 /* EXRCurrentExchangeRateCell.h */,
+				CD71C5251E50208F002365A0 /* EXRCurrentExchangeRateCell.m */,
+				CD1013491E63101C00454469 /* EXRCurrentExchangeRateCell+Currency.h */,
+				CD10134A1E63101C00454469 /* EXRCurrentExchangeRateCell+Currency.m */,
+			);
+			name = EXRTableViewCell;
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		CD71C5261E50208F002365A0 /* EXRVirtualKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C5271E50208F002365A0 /* EXRVirtualKeyboard.h */,
+				CD71C5281E50208F002365A0 /* EXRVirtualKeyboard.m */,
+			);
+			name = EXRVirtualKeyboard;
+			path = VirtualKeyboard;
+			sourceTree = "<group>";
+		};
+		CD71C5291E50208F002365A0 /* EXRHistoricalData */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C5341E502CD1002365A0 /* EXRChartView */,
+				CD71C5331E502CC2002365A0 /* EXRHeaderView */,
+				CD71C52A1E50208F002365A0 /* EXRHistoricalDataViewController.h */,
+				CD71C52B1E50208F002365A0 /* EXRHistoricalDataViewController.m */,
+			);
+			name = EXRHistoricalData;
+			path = HistoricalData;
+			sourceTree = "<group>";
+		};
+		CD71C5331E502CC2002365A0 /* EXRHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C5351E502D0C002365A0 /* EXRHeaderView.h */,
+				CD71C5361E502D0C002365A0 /* EXRHeaderView.m */,
+			);
+			name = EXRHeaderView;
+			sourceTree = "<group>";
+		};
+		CD71C5341E502CD1002365A0 /* EXRChartView */ = {
+			isa = PBXGroup;
+			children = (
+				CD71C5381E502D4F002365A0 /* EXRChartView.h */,
+				CD71C5391E502D4F002365A0 /* EXRChartView.m */,
+				CD10130A1E530AD700454469 /* EXRCurveView.h */,
+				CD10130B1E530AD700454469 /* EXRCurveView.m */,
+			);
+			name = EXRChartView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD71C4711E4303EE002365A0 /* ExchangeRate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD71C49F1E4303EE002365A0 /* Build configuration list for PBXNativeTarget "ExchangeRate" */;
+			buildPhases = (
+				7EFCF53140471DFE7BE64309 /* [CP] Check Pods Manifest.lock */,
+				CD71C46E1E4303EE002365A0 /* Sources */,
+				CD71C46F1E4303EE002365A0 /* Frameworks */,
+				CD71C4701E4303EE002365A0 /* Resources */,
+				F7F5FB6F6FBFE649933E2911 /* [CP] Embed Pods Frameworks */,
+				C2D02A2E67C689C05287ED3A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExchangeRate;
+			productName = ExchangeRate;
+			productReference = CD71C4721E4303EE002365A0 /* ExchangeRate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD71C48A1E4303EE002365A0 /* ExchangeRateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD71C4A21E4303EE002365A0 /* Build configuration list for PBXNativeTarget "ExchangeRateTests" */;
+			buildPhases = (
+				CD71C4871E4303EE002365A0 /* Sources */,
+				CD71C4881E4303EE002365A0 /* Frameworks */,
+				CD71C4891E4303EE002365A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD71C48D1E4303EE002365A0 /* PBXTargetDependency */,
+			);
+			name = ExchangeRateTests;
+			productName = ExchangeRateTests;
+			productReference = CD71C48B1E4303EE002365A0 /* ExchangeRateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD71C4951E4303EE002365A0 /* ExchangeRateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD71C4A51E4303EE002365A0 /* Build configuration list for PBXNativeTarget "ExchangeRateUITests" */;
+			buildPhases = (
+				CD71C4921E4303EE002365A0 /* Sources */,
+				CD71C4931E4303EE002365A0 /* Frameworks */,
+				CD71C4941E4303EE002365A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD71C4981E4303EE002365A0 /* PBXTargetDependency */,
+			);
+			name = ExchangeRateUITests;
+			productName = ExchangeRateUITests;
+			productReference = CD71C4961E4303EE002365A0 /* ExchangeRateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD71C46A1E4303EE002365A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = bbyz;
+				TargetAttributes = {
+					CD71C4711E4303EE002365A0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7W52VV9JFN;
+						ProvisioningStyle = Automatic;
+					};
+					CD71C48A1E4303EE002365A0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7W52VV9JFN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD71C4711E4303EE002365A0;
+					};
+					CD71C4951E4303EE002365A0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7W52VV9JFN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD71C4711E4303EE002365A0;
+					};
+				};
+			};
+			buildConfigurationList = CD71C46D1E4303EE002365A0 /* Build configuration list for PBXProject "ExchangeRate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD71C4691E4303EE002365A0;
+			productRefGroup = CD71C4731E4303EE002365A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD71C4711E4303EE002365A0 /* ExchangeRate */,
+				CD71C48A1E4303EE002365A0 /* ExchangeRateTests */,
+				CD71C4951E4303EE002365A0 /* ExchangeRateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD71C4701E4303EE002365A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD71C4851E4303EE002365A0 /* LaunchScreen.storyboard in Resources */,
+				CD71C5131E501275002365A0 /* Assets.xcassets in Resources */,
+				CD71C4801E4303EE002365A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD71C4891E4303EE002365A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD71C4941E4303EE002365A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EFCF53140471DFE7BE64309 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2D02A2E67C689C05287ED3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExchangeRate/Pods-ExchangeRate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7F5FB6F6FBFE649933E2911 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExchangeRate/Pods-ExchangeRate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD71C46E1E4303EE002365A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD71C52C1E50208F002365A0 /* EXRCurrenciesChosenViewController.m in Sources */,
+				CD1013391E5B335900454469 /* EXRCustomDismissTransition.m in Sources */,
+				CD71C4B41E46E4D4002365A0 /* EXRBaseTableViewCell.m in Sources */,
+				CD10134B1E63101C00454469 /* EXRCurrentExchangeRateCell+Currency.m in Sources */,
+				CD71C4E81E498C0D002365A0 /* EXRBaseEntity.m in Sources */,
+				CD71C4B71E46E567002365A0 /* EXRBaseViewController.m in Sources */,
+				CD71C5321E50208F002365A0 /* EXRHistoricalDataViewController.m in Sources */,
+				CD71C4E41E49868A002365A0 /* EXRCurrentDAO.m in Sources */,
+				CD71C4BA1E46E5AC002365A0 /* EXRBaseNavigationController.m in Sources */,
+				CD71C47D1E4303EE002365A0 /* ViewController.m in Sources */,
+				CD71C47A1E4303EE002365A0 /* AppDelegate.m in Sources */,
+				CD10130C1E530AD700454469 /* EXRCurveView.m in Sources */,
+				CD71C4DA1E475392002365A0 /* EXRCurrentService.m in Sources */,
+				CD71C5311E50208F002365A0 /* EXRVirtualKeyboard.m in Sources */,
+				CD1013331E5B317900454469 /* EXRCustomButton.m in Sources */,
+				CD71C52E1E50208F002365A0 /* EXRCurrentExchangeRateViewController.m in Sources */,
+				CD1013261E5691BC00454469 /* EXRHistoricalDAO.m in Sources */,
+				CD71C4BD1E46E767002365A0 /* EXRCurrency.m in Sources */,
+				CD71C50D1E4EDB5B002365A0 /* EXRCustomView.m in Sources */,
+				CD1013231E55DE0F00454469 /* EXRDBHelper.m in Sources */,
+				CD71C4771E4303EE002365A0 /* main.m in Sources */,
+				CD1013201E55DC6300454469 /* EXRate.m in Sources */,
+				CD10133C1E5C61F600454469 /* EXRAFClient.m in Sources */,
+				CD71C4DF1E498421002365A0 /* EXRExchangeRatePlistHelper.m in Sources */,
+				CD71C4FD1E4C6857002365A0 /* EXRCustomTextField.m in Sources */,
+				CD71C5371E502D0C002365A0 /* EXRHeaderView.m in Sources */,
+				CD71C5301E50208F002365A0 /* EXRCurrentExchangeRateCell.m in Sources */,
+				CD71C5021E4CB6BE002365A0 /* EXRChosenService.m in Sources */,
+				CD1013381E5B335900454469 /* EXRCustomPresentTransition.m in Sources */,
+				CD71C53A1E502D4F002365A0 /* EXRChartView.m in Sources */,
+				CD1013161E54150F00454469 /* EXRHistoricalService.m in Sources */,
+				CD71C52D1E50208F002365A0 /* EXRChosenCustomCell.m in Sources */,
+				CD10133F1E5C731000454469 /* EXRSearchResultTableViewController.m in Sources */,
+				CD10134E1E631DA100454469 /* EXRCustomTextField+Formatter.m in Sources */,
+				CD71C4EF1E49910B002365A0 /* EXRCurrencyDetailHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD71C4871E4303EE002365A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD71C4901E4303EE002365A0 /* ExchangeRateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD71C4921E4303EE002365A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD71C49B1E4303EE002365A0 /* ExchangeRateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD71C48D1E4303EE002365A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD71C4711E4303EE002365A0 /* ExchangeRate */;
+			targetProxy = CD71C48C1E4303EE002365A0 /* PBXContainerItemProxy */;
+		};
+		CD71C4981E4303EE002365A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD71C4711E4303EE002365A0 /* ExchangeRate */;
+			targetProxy = CD71C4971E4303EE002365A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD71C47E1E4303EE002365A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD71C47F1E4303EE002365A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD71C4831E4303EE002365A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD71C4841E4303EE002365A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD71C49D1E4303EE002365A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD71C49E1E4303EE002365A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD71C4A01E4303EE002365A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C7F0AA7D2FEBAE1C11D2F2 /* Pods-ExchangeRate.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7W52VV9JFN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/ExchangeRate.prefix.pch";
+				INFOPLIST_FILE = ExchangeRate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbyz.ExchangeRate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD71C4A11E4303EE002365A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029F0BDAD98B7A1BE8D69E2C /* Pods-ExchangeRate.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7W52VV9JFN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/ExchangeRate.prefix.pch";
+				INFOPLIST_FILE = ExchangeRate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbyz.ExchangeRate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD71C4A31E4303EE002365A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7W52VV9JFN;
+				INFOPLIST_FILE = ExchangeRateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbyz.ExchangeRateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExchangeRate.app/ExchangeRate";
+			};
+			name = Debug;
+		};
+		CD71C4A41E4303EE002365A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7W52VV9JFN;
+				INFOPLIST_FILE = ExchangeRateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbyz.ExchangeRateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExchangeRate.app/ExchangeRate";
+			};
+			name = Release;
+		};
+		CD71C4A61E4303EE002365A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7W52VV9JFN;
+				INFOPLIST_FILE = ExchangeRateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbyz.ExchangeRateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ExchangeRate;
+			};
+			name = Debug;
+		};
+		CD71C4A71E4303EE002365A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7W52VV9JFN;
+				INFOPLIST_FILE = ExchangeRateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbyz.ExchangeRateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ExchangeRate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD71C46D1E4303EE002365A0 /* Build configuration list for PBXProject "ExchangeRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD71C49D1E4303EE002365A0 /* Debug */,
+				CD71C49E1E4303EE002365A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD71C49F1E4303EE002365A0 /* Build configuration list for PBXNativeTarget "ExchangeRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD71C4A01E4303EE002365A0 /* Debug */,
+				CD71C4A11E4303EE002365A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD71C4A21E4303EE002365A0 /* Build configuration list for PBXNativeTarget "ExchangeRateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD71C4A31E4303EE002365A0 /* Debug */,
+				CD71C4A41E4303EE002365A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD71C4A51E4303EE002365A0 /* Build configuration list for PBXNativeTarget "ExchangeRateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD71C4A61E4303EE002365A0 /* Debug */,
+				CD71C4A71E4303EE002365A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD71C46A1E4303EE002365A0 /* Project object */;
+}
